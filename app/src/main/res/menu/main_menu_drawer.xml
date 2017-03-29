@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_auto"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Automobile" />
+        <item
+            android:id="@+id/nav_kitchen"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Kitchen" />
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="To do list" />
+        <item
+            android:id="@+id/nav_living"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Living room" />
+    </group>
+</menu>
