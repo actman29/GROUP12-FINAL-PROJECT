@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         if(id == R.id.nav_auto) {
-         // Intent intent = new Intent(MainActivity.this, AutomobileMain.class);
-         //   startActivity(intent);    // Automobile Activity
+           Intent intent = new Intent(MainActivity.this, AutomobileMain.class);
+           startActivity(intent);    // Automobile Activity
 
         } else if(id == R.id.nav_kitchen) {
 
