@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AutomobileMain" />
-        <activity android:name=".FragmentPortrait"></activity>
+        <activity android:name=".AutoFragPortrait"></activity>
         <activity android:name=".HouseSettings"></activity>
         <activity android:name=".SetTime"></activity>
     </application>
