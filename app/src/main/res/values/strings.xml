@@ -1,8 +1,69 @@
 <resources>
     <string name="app_name">Group12-CST2335</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="title_activity_test_nav">testNavActivity</string>
-
-    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>	
+	
+	<!-- Maga Lee (Automobile settings) -->	
+    <string name="title_program">Automobile Manager</string>
+    <string name="msg_init">Initializing Automobile Manager...</string>
+    <string name="menu_temp">◎ Temperature</string>
+    <string name="menu_radio">◎ Radio</string>
+    <string name="menu_GPS">◎ GPS Directions</string>
+    <string name="menu_light">◎ Lights</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="save_data">SAVE</string>
+    <string name="title_temp">Temperature Control</string>
+    <string name="title_radio">Radio Control</string>
+    <string name="title_GPS">GPS Directions</string>
+    <string name="title_light">Lights Control</string>
+    <string name="dialog_addTemp">Do you want to save the temperature value?</string>
+    <string name="dialog_addPreset">Do you want to add the channel to the preset</string>
+    <string name="dialog_removePreset">Do you want to remove the channel from the preset</string>
+    <string name="dialog_addLight">Do you want to save the lights state?</string>
+    <string name="msg_setConfirm">has been set successfully.</string>
+    <string name="msg_removeConfirm">has been removed successfully.</string>
+    <string name="msg_temp">The temperature value</string>
+    <string name="msg_preset">The preset frequency</string>
+    <string name="msg_light">The lights state</string>
+    <string name="dialog_titlePreset">Configure Preset</string>
+    <string name="radio_addPreset">Add/Update Preset</string>
+    <string name="radio_removePreset">Remove Preset</string>
+    <string name="input_GPS">Input destination</string>
+    <string name="normal_light">Normal light</string>
+    <string name="high_beam">High beam</string>
+    <string name="dimm_light">Dimmable light</string>
+    <string name="helpTitle">Automobile Manager\nVersion 1.0</string>
+    <string name="instTemp">- Set the temperature using the up and down buttons.</string>
+    <string name="instRadio">- Show, add or delete the preset channels when (long) clicking each preset button.\n- Turn on/off and set the volume using the image and slider.</string>
+    <string name="instGPS">- Start naviagation after entering a destination.</string>
+    <string name="instLight">- Turn on/off 3 lights using the switches.</string>
+	
+	<!-- Youngbong Ko (House settings) -->	
+	<string name="action_settings">Settings</string>
+    <string name="title_activity_house_settings">HouseSettings</string>    
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="light">LIGHT</string>
+    <string name="turn_on_the_light">Turn on the Light.</string>
+    <string name="door">DOOR</string>
+    <string name="open_the_door">Open the Door.</string>
+    <string name="version">Version :</string>
+    <string name="author">Author :</string>
+    <string name="instruction">Instruction :</string>
+    <string name="instruction_text">You can do what ever you want</string>
+    <string name="id">ID</string>
+    <string name="message_here">MessageHere</string>
+    <string name="delete_message">DELETE THIS MESSAGE</string>
+    <string name="temperature">Temperature :</string>
+    <string name="set_time">Setup time :</string>
+    <string name="button">Setting</string>
+    <string name="garageOpener">Garage Opener</string>
+    <string name="houseTemperature">House Temperature</string>
+    <string name="outsideWeather">Outside Weather</string>
+    <string name="adjustSchedule">ADJUSTING SCHEDULE</string>
+    <string name="deleteItem">Delete Item</string>
+    <string name="updateList">Update List</string>
+    <string name="addItem">Add Item</string>
+    <string name="TextView">Text View</string>
 </resources>

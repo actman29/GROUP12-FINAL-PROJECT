@@ -10,9 +10,9 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="Kitchen" />
         <item
-            android:id="@+id/nav_todo"
+            android:id="@+id/nav_house"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="To do list" />
+            android:title="House Settings" />
         <item
             android:id="@+id/nav_living"
             android:icon="@drawable/ic_menu_manage"

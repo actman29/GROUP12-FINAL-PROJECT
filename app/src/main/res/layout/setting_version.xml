@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_setting"
+    tools:context="com.example.marklee.group12_final_project.TestActivity">
+
+    <Button
+        android:id="@+id/bt_garage"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/bottom_bar"
+        android:text="@string/garageOpener"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <FrameLayout
+        android:id="@+id/frame_garage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_garage"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"></FrameLayout>
+
+    <Button
+        android:id="@+id/bt_house_temperature"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/bottom_bar"
+        android:text="@string/houseTemperature"
+        app:layout_constraintTop_toBottomOf="@+id/frame_garage"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frame_house_temperature"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_house_temperature"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"></FrameLayout>
+
+    <Button
+        android:id="@+id/bt_outside_weather"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/bottom_bar"
+        android:text="@string/outsideWeather"
+        app:layout_constraintTop_toBottomOf="@+id/frame_house_temperature"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frame_outside_weather"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/bt_outside_weather"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="0dp">
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/bt_schedule"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/bottom_bar"
+        android:text="@string/adjustSchedule"
+        app:layout_constraintTop_toBottomOf="@+id/frame_outside_weather"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frame_schedule"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/bt_schedule"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="0dp"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_version"
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/bt_schedule"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="0dp"></FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

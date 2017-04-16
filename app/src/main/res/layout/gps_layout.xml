@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/title_GPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_marginTop="87dp"
+        android:id="@+id/gpsTitle"
+        android:textSize="26sp"
+        android:textColor="@color/colorLightGreen1" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_GPS"
+        android:layout_below="@+id/gpsTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="57dp"
+        android:id="@+id/destText" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/start_icon2"
+        android:layout_alignTop="@+id/destText"
+        android:layout_toRightOf="@+id/destText"
+        android:id="@+id/gpsStart" />
+
+</RelativeLayout>

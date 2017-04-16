@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Group12-CST2335</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+	<!-- Maga Lee (Automobile settings) -->	
+	<string name="title_program">자동차 관리 프로그램</string>
+    <string name="msg_init">프로그램을 초기화중입니다...</string>
+    <string name="menu_temp">◎ 온도 설정</string>
+    <string name="menu_radio">◎ 라디오 설정</string>
+    <string name="menu_GPS">◎ 네비게이션</string>
+    <string name="menu_light">◎ 전조등 설정</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="close">닫기</string>
+    <string name="save_data">저장</string>
+    <string name="title_temp">온도 설정</string>
+    <string name="title_radio">라디오 설정</string>
+    <string name="title_GPS">네비게이션</string>
+    <string name="title_light">전조등 설정</string>
+    <string name="dialog_addTemp">설정된 온도를 저장하시겠습니까?</string>
+    <string name="dialog_addPreset">설정된 채널을 지정된 프리셋에 저장하시겠습니까-프리셋</string>
+    <string name="dialog_removePreset">지정된 프리셋 채널을 삭제하시겠습니까-프리셋</string>
+    <string name="dialog_addLight">전조등 설정을 저장하시겠습니까?</string>
+    <string name="msg_setConfirm">성공적으로 저장되었습니다.</string>
+    <string name="msg_removeConfirm">성공적으로 삭제되었습니다.</string>
+    <string name="msg_temp">설정된 온도가</string>
+    <string name="msg_preset">설정된 프리셋</string>
+    <string name="msg_light">전조등 설정이</string>
+    <string name="dialog_titlePreset">설정 프리셋</string>
+    <string name="radio_addPreset">추가/변경 프리셋</string>
+    <string name="radio_removePreset">삭제 프리셋</string>
+    <string name="input_GPS">목적지를 입력하세요</string>
+    <string name="normal_light">일반전조등</string>
+    <string name="high_beam">상향전조등</string>
+    <string name="dimm_light">안개등</string>
+    <string name="helpTitle">자동차 관리 프로그램\nVersion 1.0</string>
+    <string name="instTemp">- 상하조절 버튼을 이용해 온도를 설정합니다.</string>
+    <string name="instRadio">- 버튼을 길게 눌러 프리셋을 설정할 수 있습니다.\n- 볼륨이미지와 슬라이더를 이용해 볼륨을 조정합니다.</string>
+    <string name="instGPS">- 목적지를 입력하고 네비게이션을 시작합니다.</string>
+    <string name="instLight">- 3종류의 전조등을 켜고 끕니다.</string>	
+	
+	<!-- Youngbong Ko (House settings) -->	
+	<string name="action_settings">셋팅</string>
+    <string name="title_activity_house_settings">하우스 셋팅</string>   
+    <string name="hello_blank_fragment">헬로</string>
+    <string name="light">조명</string>
+    <string name="turn_on_the_light">조명 켜기</string>
+    <string name="door">주차장 문</string>
+    <string name="open_the_door">문 열기</string>
+    <string name="version">버젼 : </string>
+    <string name="author">저작 :</string>
+    <string name="instruction">공지사항 :</string>
+    <string name="id">아이디</string>
+    <string name="message_here">메시지</string>
+    <string name="delete_message">메시지 삭제</string>
+    <string name="updateList">업데이트</string>
+    <string name="addItem">아이템 추가</string>
+    <string name="TextView">대화상자</string>
+</resources>

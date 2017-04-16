@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/car_48"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:id="@+id/carLogo" />
+
+    <TextView
+        android:text="@string/helpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/carLogo"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/aboutTitle"
+        android:textColor="@color/colorDarkGreen1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Copyright (C) 2017 by Maga Lee\nAll rights reserved."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carLogo"
+        android:layout_alignStart="@+id/carLogo"
+        android:layout_marginTop="39dp"
+        android:id="@+id/copyRight"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="14sp" />
+
+    <TextView
+        android:text="@string/menu_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/instTitleTemp"
+        android:layout_below="@+id/copyRight"
+        android:layout_alignStart="@+id/copyRight"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/instTitleTemp"
+        android:layout_alignStart="@+id/instTitleTemp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/instTemp" />
+
+    <TextView
+        android:text="@string/menu_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/instTitleRadio"
+        android:layout_below="@+id/instTemp"
+        android:layout_alignStart="@+id/instTemp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/instTitleRadio"
+        android:layout_alignStart="@+id/instTitleRadio"
+        android:layout_marginTop="2dp"
+        android:id="@+id/instRadio" />
+
+    <TextView
+        android:text="@string/menu_GPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/instTitleGPS"
+        android:layout_below="@+id/instRadio"
+        android:layout_alignStart="@+id/instRadio"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/instTitleGPS"
+        android:layout_alignStart="@+id/instTitleGPS"
+        android:layout_marginTop="2dp"
+        android:id="@+id/instGPS" />
+
+    <TextView
+        android:text="@string/menu_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/instTitleLight"
+        android:layout_below="@+id/instGPS"
+        android:layout_alignStart="@+id/instGPS"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/instTitleLight"
+        android:layout_alignStart="@+id/instTitleLight"
+        android:layout_marginTop="2dp"
+        android:id="@+id/instLight" />
+</RelativeLayout>

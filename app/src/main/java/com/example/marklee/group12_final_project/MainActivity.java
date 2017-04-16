@@ -36,13 +36,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         if(id == R.id.nav_auto) {
-         // Intent intent = new Intent(MainActivity.this, AutomobileMain.class);
-         //   startActivity(intent);    // Automobile Activity
-
+           Intent intent = new Intent(MainActivity.this, AutomobileMain.class);
+           startActivity(intent);    // Automobile Activity
         } else if(id == R.id.nav_kitchen) {
 
-        } else if(id == R.id.nav_todo) {
-
+        } else if(id == R.id.nav_house) {
+            Intent intent = new Intent(MainActivity.this, HouseSettings.class);
+            startActivity(intent);    // Automobile Activity
         } else if(id == R.id.nav_living) {
 
         }

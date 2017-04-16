@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/title_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_marginTop="87dp"
+        android:textSize="26sp"
+        android:id="@+id/tempTitle"
+        android:textColor="@color/colorLightGreen1" />
+
+    <TextView
+        android:text="16.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="10dp"
+        android:id="@+id/tempValue"
+        android:textSize="70sp"
+        android:layout_below="@+id/tempTitle"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_light" />
+
+    <TextView
+        android:text="\u2103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tempValue"
+        android:layout_marginTop="78dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:id="@+id/tempCelc"
+        android:textSize="50sp"
+        android:layout_below="@+id/tempTitle"
+        android:textColor="@android:color/holo_red_light" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:srcCompat="@android:drawable/arrow_up_float"
+        android:layout_alignTop="@+id/tempValue"
+        android:layout_toRightOf="@+id/tempCelc"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tempUp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:srcCompat="@android:drawable/arrow_down_float"
+        android:layout_centerVertical="true"
+        android:layout_alignBottom="@+id/tempValue"
+        android:layout_toRightOf="@+id/tempCelc"
+        android:id="@+id/tempDown" />
+
+    <Button
+        android:text="@string/save_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/addTemperature"
+        android:layout_below="@+id/tempValue"
+        android:layout_alignEnd="@+id/tempDown"
+        android:layout_alignStart="@+id/tempCelc"
+        android:textSize="16sp"
+        android:textColor="@color/colorDarkGreen1"
+        android:background="@color/colorLightGreen2" />
+
+</RelativeLayout>
